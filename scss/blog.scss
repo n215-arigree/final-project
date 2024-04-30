@@ -1,0 +1,116 @@
+.blog {
+  margin: 0 auto;
+  width: 980px;
+  .title {
+    font-family: GillSansReg;
+    font-size: 25px;
+  }
+  hr {
+    width: 229px;
+    border: 1px solid black;
+  }
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    a {
+      text-decoration: none;
+    }
+    .container {
+      width: 460px;
+      height: 357px;
+      display: flex;
+      flex-direction: row;
+      .date {
+        height: 60px;
+        width: 60px;
+        background-color: $site-coral;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        #num {
+          font-family: GillSansBold;
+          font-size: 22px;
+          color: white;
+        }
+        #month {
+          font-family: GillSansLight;
+          font-size: 12px;
+          color: white;
+        }
+      }
+      .rightContent {
+        width: 380px;
+        .image {
+          width: 380px;
+          height: 140px;
+          background-image: url(../images/blog.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        #top {
+          font-family: GillSansReg;
+          font-size: 15px;
+          color: black;
+        }
+        #bottom {
+          font-family: GillSansReg;
+          font-size: 13px;
+          color: $site-coral;
+        }
+      }
+    }
+  }
+}
+.blogPage {
+  .headerImg {
+    margin: 0 auto;
+
+    width: 981px;
+    height: 300px;
+    background-image: linear-gradient(
+        rgba(238, 67, 103, 0.7),
+        rgba(238, 67, 103, 0.7)
+      ),
+      url(../images/blog.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .date {
+    height: 155.25px;
+    width: 155.25px;
+    background-color: $site-coral;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    #num {
+      font-family: GillSansBold;
+      font-size: 55px;
+      color: white;
+    }
+    #month {
+      font-family: GillSansLight;
+      font-size: 31px;
+      color: white;
+    }
+  }
+  .text{
+    margin: 0 auto;
+    width: 980px;
+    p{
+        font-family: GillSansLight;
+        font-size: 20px;
+    }
+    #title{
+        font-family: GillSansReg;
+        font-size: 20px;
+        color: $site-coral;
+    }
+  }
+}

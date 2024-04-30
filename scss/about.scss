@@ -1,0 +1,44 @@
+.about {
+    margin: 0 auto;
+    width: 979.5px;
+  height: 700px;
+  position: relative;
+  
+  .headerImg {
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    
+    width: 979.5px;
+    height: 378.75px;
+    background-image: linear-gradient(
+        rgba(255, 208, 64, 0.8),
+        rgba(255, 208, 64, 0.8)
+      ),
+      url(../images/about.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .title {
+    
+    position: relative;
+    top: -25px;
+    z-index: 2;
+    font-family: GillSansReg;
+    font-size: 25px;
+    
+  }
+  hr{
+    position: relative;
+    top: -20px;
+    width: 229px;
+    border: 1px solid black;
+  }
+  p{
+    width: 980px;
+    font-family: GillSansLightI;
+    font-size: 16px;
+    color: black;
+  }
+}
