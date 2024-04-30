@@ -116,6 +116,7 @@ nav .links {
   font-family: ptSerif;
   font-weight: normal;
   font-size: 60px;
+  padding-top: 60px;
 }
 .hero p {
   width: 420px;
@@ -125,43 +126,10 @@ nav .links {
   color: #EE4367;
 }
 
-.home .hero {
-  margin-top: -93px;
-  height: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: white;
-  background-image: linear-gradient(rgba(255, 208, 64, 0.8), rgba(255, 208, 64, 0.8)), url(../images/home-hero.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.home .hero button {
-  width: 121.62px;
-  height: 40.04px;
-  background-color: #EE4367;
-  color: white;
-  border: none;
-  font-family: GillSansReg;
-  font-size: 15px;
-}
-.home .hero h1 {
-  font-family: ptSerif;
-  font-weight: normal;
-  font-size: 60px;
-}
-.home .hero p {
-  width: 420px;
-  text-align: center;
-  font-family: GillSansI;
-  font-size: 20px;
-  color: #EE4367;
-}
 .home .quote {
   width: 100%;
   height: 300px;
+  padding-top: 75px;
 }
 .home .quote .quoteText {
   margin: 0 auto;
@@ -176,29 +144,39 @@ nav .links {
   font-family: ptSerif;
   color: #EE4367;
   font-size: 15px;
+  padding-top: 20px;
 }
 .home .quote .quoteText #corp {
   font-family: ptSerif;
-  color: #A8A8A8;
+  color: #a8a8a8;
   font-size: 10px;
+  padding-top: 5px;
 }
 .home .events {
   height: 320px;
   background-color: #540D6E;
+  padding: 40px;
 }
 .home .events h2 {
   font-family: GillSansReg;
   color: white;
   font-size: 25px;
   font-weight: normal;
+  padding-bottom: 5px;
 }
 .home .events hr {
   width: 392px;
   border: 1px solid white;
 }
 .home .events .eventDetail {
+  width: 1198px;
+  height: 200px;
   display: flex;
   flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 .home .events .eventDetail .eventBox {
   width: 244px;
@@ -213,6 +191,7 @@ nav .links {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-right: 20px;
 }
 .home .events .eventDetail .eventBox .date #num {
   font-family: GillSansBold;
@@ -231,6 +210,7 @@ nav .links {
   font-family: GillSansReg;
   font-size: 15px;
   color: white;
+  padding-bottom: 5px;
 }
 .home .events .eventDetail .eventBox .text #bottom {
   font-family: GillSansReg;
@@ -241,7 +221,7 @@ nav .links {
 .about {
   margin: 0 auto;
   width: 979.5px;
-  height: 700px;
+  height: 600px;
   position: relative;
 }
 .about .headerImg {
@@ -254,6 +234,7 @@ nav .links {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 70px;
 }
 .about .title {
   position: relative;
@@ -275,7 +256,13 @@ nav .links {
   color: black;
 }
 
+.gallery {
+  width: 980px;
+  margin: 0 auto;
+}
 .gallery .title {
+  padding-top: 50px;
+  width: 980px;
   font-family: GillSansReg;
   font-size: 25px;
 }
@@ -284,6 +271,8 @@ nav .links {
   border: 1px solid black;
 }
 .gallery .rowOne {
+  padding-bottom: 20px;
+  padding-top: 20px;
   display: flex;
   flex-direction: row;
 }
@@ -294,6 +283,7 @@ nav .links {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-right: 20px;
 }
 .gallery .rowOne .secondBox {
   width: 187px;
@@ -302,6 +292,7 @@ nav .links {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-right: 20px;
 }
 .gallery .rowOne .thirdBox {
   width: 265px;
@@ -314,6 +305,7 @@ nav .links {
 .gallery .rowTwo {
   display: flex;
   flex-direction: row;
+  padding-bottom: 50px;
 }
 .gallery .rowTwo .fourthBox {
   width: 603px;
@@ -322,6 +314,7 @@ nav .links {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-right: 20px;
 }
 .gallery .rowTwo .fifthBox {
   width: 355px;
@@ -378,6 +371,8 @@ nav .links {
 }
 .galleryPages .text p {
   width: 490px;
+  font-family: GillSansLightI;
+  padding-bottom: 50px;
 }
 
 .blog {
@@ -387,12 +382,15 @@ nav .links {
 .blog .title {
   font-family: GillSansReg;
   font-size: 25px;
+  padding-top: 50px;
 }
 .blog hr {
   width: 229px;
   border: 1px solid black;
+  margin-bottom: 40px;
 }
 .blog .content {
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
 }
@@ -404,6 +402,7 @@ nav .links {
   height: 357px;
   display: flex;
   flex-direction: row;
+  margin-right: 30px;
 }
 .blog .content .container .date {
   height: 60px;
@@ -413,6 +412,7 @@ nav .links {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-right: 20px;
 }
 .blog .content .container .date #num {
   font-family: GillSansBold;
@@ -434,11 +434,13 @@ nav .links {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 25px;
 }
 .blog .content .container .rightContent #top {
   font-family: GillSansReg;
   font-size: 15px;
   color: black;
+  margin-bottom: 25px;
 }
 .blog .content .container .rightContent #bottom {
   font-family: GillSansReg;
@@ -457,6 +459,8 @@ nav .links {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 50px;
+  margin-top: 30px;
 }
 .blogPage .date {
   height: 155.25px;
@@ -480,21 +484,98 @@ nav .links {
 .blogPage .text {
   margin: 0 auto;
   width: 980px;
+  padding-bottom: 80px;
 }
 .blogPage .text p {
   font-family: GillSansLight;
   font-size: 20px;
+  padding-bottom: 30px;
 }
 .blogPage .text #title {
   font-family: GillSansReg;
   font-size: 20px;
   color: #EE4367;
+  padding-bottom: 30px;
+}
+
+.contact {
+  margin: 0 auto;
+  width: 980px;
+  padding-top: 50px;
+}
+.contact .title {
+  font-family: GillSansReg;
+  font-size: 25px;
+}
+.contact hr {
+  width: 229px;
+  border: 1px solid black;
+  margin-bottom: 40px;
+}
+.contact .content {
+  display: flex;
+  flex-direction: row;
+}
+.contact .content .formContain {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+}
+.contact .content .formContain input {
+  width: 529px;
+  height: 60px;
+  background-color: #f5f5f5;
+  border: none;
+  margin-bottom: 21px;
+  padding-left: 10px;
+}
+.contact .content .formContain textarea {
+  width: 529px;
+  height: 199px;
+  background-color: #f5f5f5;
+  border: none;
+  margin-bottom: 21px;
+  padding-left: 10px;
+  resize: none;
+  font-family: GillSansReg;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  padding-top: 5px;
+}
+.contact .content .formContain textarea input::placeholder {
+  font-family: GillSansReg;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.contact .content .formContain textarea textarea::placeholder {
+  font-family: GillSansReg;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.contact .content .formContain button {
+  width: 167px;
+  height: 60px;
+  border: none;
+  background-color: #EE4367;
+  font-family: GillSansReg;
+  font-size: 16px;
+  color: white;
+}
+.contact .content .map {
+  width: 400px;
+  height: 442px;
+  background-image: url(../images/map.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 footer {
   height: 455px;
   background-color: #EE4367;
   text-align: center;
+  padding: 40px;
 }
 footer .logo {
   margin: 0 auto;
@@ -505,11 +586,16 @@ footer .logo {
   height: 42px;
   border: 2px solid white;
   color: white;
+  margin-bottom: 50px;
 }
 footer .address {
   margin: 0 auto;
   font-size: 16px;
   color: white;
+  padding-bottom: 30px;
+}
+footer .address p {
+  padding: 3px;
 }
 footer .newsletter {
   width: 696px;
@@ -523,6 +609,7 @@ footer .newsletter .input {
   width: 529px;
   height: 60px;
   padding: 22px;
+  text-align: left;
   font-size: 16px;
   color: white;
   opacity: 0.5;
@@ -536,6 +623,14 @@ footer .newsletter .button {
   background-color: white;
   font-size: 16px;
   color: #EE4367;
+}
+footer .socials {
+  padding: 40px;
+}
+footer .socials img {
+  width: 32px;
+  height: 32px;
+  margin: 5px;
 }
 footer .copyright {
   color: white;

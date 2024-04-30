@@ -1,14 +1,13 @@
 .about {
-    margin: 0 auto;
-    width: 979.5px;
-  height: 700px;
+  margin: 0 auto;
+  width: 979.5px;
+  height: 600px;
   position: relative;
-  
+
   .headerImg {
     margin: 0 auto;
     position: relative;
     z-index: 1;
-    
     width: 979.5px;
     height: 378.75px;
     background-image: linear-gradient(
@@ -19,23 +18,22 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 70px;
   }
   .title {
-    
     position: relative;
     top: -25px;
     z-index: 2;
     font-family: GillSansReg;
     font-size: 25px;
-    
   }
-  hr{
+  hr {
     position: relative;
     top: -20px;
     width: 229px;
     border: 1px solid black;
   }
-  p{
+  p {
     width: 980px;
     font-family: GillSansLightI;
     font-size: 16px;

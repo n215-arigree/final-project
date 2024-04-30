@@ -4,12 +4,16 @@
   .title {
     font-family: GillSansReg;
     font-size: 25px;
+    padding-top: 50px;
   }
   hr {
     width: 229px;
     border: 1px solid black;
+    margin-bottom: 40px;
   }
   .content {
+    margin: 0 auto;
+
     display: flex;
     flex-wrap: wrap;
     a {
@@ -20,6 +24,7 @@
       height: 357px;
       display: flex;
       flex-direction: row;
+      margin-right: 30px;
       .date {
         height: 60px;
         width: 60px;
@@ -28,6 +33,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-right: 20px;
         #num {
           font-family: GillSansBold;
           font-size: 22px;
@@ -48,11 +54,13 @@
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
+          margin-bottom: 25px;
         }
         #top {
           font-family: GillSansReg;
           font-size: 15px;
           color: black;
+          margin-bottom: 25px;
         }
         #bottom {
           font-family: GillSansReg;
@@ -66,7 +74,6 @@
 .blogPage {
   .headerImg {
     margin: 0 auto;
-
     width: 981px;
     height: 300px;
     background-image: linear-gradient(
@@ -80,6 +87,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
   }
   .date {
     height: 155.25px;
@@ -100,17 +109,21 @@
       color: white;
     }
   }
-  .text{
+  .text {
     margin: 0 auto;
     width: 980px;
-    p{
-        font-family: GillSansLight;
-        font-size: 20px;
+    p {
+      font-family: GillSansLight;
+      font-size: 20px;
+      padding-bottom: 30px;
     }
-    #title{
-        font-family: GillSansReg;
-        font-size: 20px;
-        color: $site-coral;
+    #title {
+      font-family: GillSansReg;
+      font-size: 20px;
+      color: $site-coral;
+      padding-bottom: 30px;
     }
+    padding-bottom: 80px;
   }
+  
 }

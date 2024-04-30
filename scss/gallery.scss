@@ -1,134 +1,144 @@
 .gallery {
-    .title {
-    
-        
-        font-family: GillSansReg;
-        font-size: 25px;
-        
-      }
-      hr{
-        
-        width: 229px;
-        border: 1px solid black;
-      }
+    width: 980px;
+    margin: 0 auto;
+  .title {
+    padding-top: 50px;
+    width: 980px;
+    font-family: GillSansReg;
+    font-size: 25px;
+  }
+  hr {
+
+    width: 229px;
+    border: 1px solid black;
+  }
+
   .rowOne {
+    padding-bottom: 20px;
+    padding-top: 20px;
     display: flex;
     flex-direction: row;
     .firstBox {
       width: 489px;
       height: 187px;
       background-image: linear-gradient(
-            rgba(255, 208, 64, 0.8), 
-            rgba(255, 208, 64, 0.8) 
-    
-          ), url(../images/gallery/1.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+          rgba(255, 208, 64, 0.8),
+          rgba(255, 208, 64, 0.8)
+        ),
+        url(../images/gallery/1.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-right: 20px;
     }
     .secondBox {
       width: 187px;
       height: 187px;
       background-image: linear-gradient(
-            rgba(238, 67, 103, 0.7), 
-            rgba(238, 67, 103, 0.7) 
-    
-          ), url(../images/gallery/2.jpeg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+          rgba(238, 67, 103, 0.7),
+          rgba(238, 67, 103, 0.7)
+        ),
+        url(../images/gallery/2.jpeg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-right: 20px;
     }
     .thirdBox {
       width: 265px;
       height: 187px;
       background-image: linear-gradient(
-            rgba(8, 173, 105, 0.7), 
-            rgba(8, 173, 105, 0.7)
-    
-          ), url(../images/gallery/3.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+          rgba(8, 173, 105, 0.7),
+          rgba(8, 173, 105, 0.7)
+        ),
+        url(../images/gallery/3.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
     }
   }
 
   .rowTwo {
     display: flex;
     flex-direction: row;
+    padding-bottom: 50px;
     .fourthBox {
       width: 603px;
       height: 306px;
       background-image: linear-gradient(
-            rgba(84, 13, 110, 0.7), 
-            rgba(84, 13, 110, 0.7)
-    
-          ), url(../images/gallery/4.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+          rgba(84, 13, 110, 0.7),
+          rgba(84, 13, 110, 0.7)
+        ),
+        url(../images/gallery/4.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-right: 20px;
     }
     .fifthBox {
       width: 355px;
       height: 306px;
       background-image: linear-gradient(
-            rgba(59, 206, 171, 0.7), 
-            rgba(59, 206, 171, 0.7)
-    
-          ), url(../images/gallery/5.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+          rgba(59, 206, 171, 0.7),
+          rgba(59, 206, 171, 0.7)
+        ),
+        url(../images/gallery/5.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
     }
   }
 }
-.galleryPages{
+.galleryPages {
+  position: relative;
+  .headerImage {
+    margin: 0 auto;
+    width: 980.5px;
+    height: 400.5px;
+    background-image: linear-gradient(
+        rgba(255, 208, 64, 0.8),
+        rgba(255, 208, 64, 0.8)
+      ),
+      url(../images/gallery/1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .title {
+    margin: 0 auto;
+    width: 980.5px;
+    height: 50px;
     position: relative;
-     .headerImage {
-        margin: 0 auto;
-        width: 980.5px;
-        height: 400.5px;
-        background-image: linear-gradient(
-            rgba(255, 208, 64, 0.8), 
-            rgba(255, 208, 64, 0.8) 
-    
-          ), url(../images/gallery/1.png);
-          background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-     }
-     .title {
-        margin: 0 auto;
-        width: 980.5px;
-        height: 50px;
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        #num {
-            position: relative;
-            top: -275px;
-            font-family: GillSansReg;
-            font-size: 300px;
-            color: $site-yellow;
-            text-shadow: 5px 5px 6px rgb(0, 0, 0, .16);
-        }
-        #titleText {
-            height: 164px;
-            position: relative;
-            top: -130px;
-            font-family: GillSansReg;
-            font-size: 140px;
-            color: $site-yellow;
-            text-shadow: 5px 5px 6px rgb(0, 0, 0, .16);
-        }
-     }
-     .text{
-        margin: 0 auto;
-        position: relative;
-        width: 980.5px;
-        display: flex;
-        flex-direction: row;
-        p {
-            width: 490px;
-        }
-     }
+    display: flex;
+    flex-direction: row;
+    #num {
+      position: relative;
+      top: -275px;
+      font-family: GillSansReg;
+      font-size: 300px;
+      color: $site-yellow;
+      text-shadow: 5px 5px 6px rgb(0, 0, 0, 0.16);
+    }
+    #titleText {
+      height: 164px;
+      position: relative;
+      top: -130px;
+      font-family: GillSansReg;
+      font-size: 140px;
+      color: $site-yellow;
+      text-shadow: 5px 5px 6px rgb(0, 0, 0, 0.16);
+    }
+  }
+  .text {
+    margin: 0 auto;
+    position: relative;
+    width: 980.5px;
+    display: flex;
+    flex-direction: row;
+    p {
+      width: 490px;
+      font-family: GillSansLightI;
+      padding-bottom: 50px;
+    }
+  }
 }

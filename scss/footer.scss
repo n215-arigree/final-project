@@ -2,7 +2,9 @@ footer {
   height: 455px;
   background-color: $site-coral;
   text-align: center;
+  padding: 40px;
   .logo {
+    
     margin: 0 auto;
     font-family: GillSansReg;
     font-size: 20px;
@@ -11,12 +13,17 @@ footer {
     height: 42px;
     border: 2px solid white;
     color: white;
+    margin-bottom: 50px;
+    
   }
   .address {
     margin: 0 auto;
-
     font-size: 16px;
     color: white;
+    padding-bottom: 30px;
+    p{
+        padding: 3px;
+    }
   }
   .newsletter {
     width: 696px;
@@ -29,6 +36,7 @@ footer {
       width: 529px;
       height: 60px;
       padding: 22px;
+      text-align: left;
       font-size: 16px;
       color: white;
       opacity: 0.5;
@@ -42,6 +50,14 @@ footer {
       background-color: white;
       font-size: 16px;
       color: $site-coral;
+    }
+  }
+  .socials{
+    padding: 40px;
+    img{
+        width: 32px;
+        height: 32px;
+        margin: 5px;
     }
   }
   .copyright {
