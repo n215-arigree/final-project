@@ -1,0 +1,39 @@
+.hero {
+    margin-top: -93px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-image: linear-gradient(
+        rgba(255, 208, 64, 0.8), 
+        rgba(255, 208, 64, 0.8) 
+
+      ), url(../images/home-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    button {
+        width: 121.62px;
+        height: 40.04px;
+        background-color: $site-coral;
+        color: white;
+        border: none;
+        font-family: GillSansReg;
+        font-size: 15px;
+    }
+    h1 {
+      font-family: ptSerif;
+      font-weight: normal;
+        font-size: 60px;
+    }
+    p {
+        width: 420px;
+        text-align: center;
+        font-family: GillSansI;
+        font-size: 20px;
+        color: $site-coral;
+    }
+  }

@@ -1,0 +1,289 @@
+@font-face {
+  font-family: GillSansReg;
+  src: url(../fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: ptSerif;
+  src: url(../fonts/PTSerif-Regular.ttf);
+}
+@font-face {
+  font-family: GillSansI;
+  src: url(../fonts/Gill\ Sans\ Italic.otf);
+}
+@font-face {
+  font-family: GillSansMedI;
+  src: url(../fonts/Gill\ Sans\ Medium\ Italic.otf);
+}
+@font-face {
+  font-family: GillSansBold;
+  src: url(../fonts/Gill\ Sans\ Bold.otf);
+}
+@font-face {
+  font-family: GillSansLight;
+  src: url(../fonts/Gill\ Sans\ Light.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+nav {
+  height: 93px;
+  width: 980px;
+  margin: 0 auto;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  position: relative;
+  z-index: 1;
+}
+nav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: GillSansReg;
+  height: 20px;
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+  padding-right: 10px;
+}
+nav a span {
+  font-size: 30px;
+  margin: 10px;
+  color: #EE4367;
+}
+nav .logo {
+  font-family: GillSansReg;
+  font-size: 20px;
+  padding-top: 20px;
+  width: 92px;
+  height: 42px;
+  border: 2px solid black;
+  color: black;
+}
+nav .links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 300px;
+  height: 42px;
+  text-align: center;
+  display: flex;
+  color: black;
+}
+
+@media all and (max-width: 920px) {
+  nav {
+    width: 100%;
+  }
+}
+.hero {
+  margin-top: -93px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  background-image: linear-gradient(rgba(255, 208, 64, 0.8), rgba(255, 208, 64, 0.8)), url(../images/home-hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero button {
+  width: 121.62px;
+  height: 40.04px;
+  background-color: #EE4367;
+  color: white;
+  border: none;
+  font-family: GillSansReg;
+  font-size: 15px;
+}
+.hero h1 {
+  font-family: ptSerif;
+  font-weight: normal;
+  font-size: 60px;
+}
+.hero p {
+  width: 420px;
+  text-align: center;
+  font-family: GillSansI;
+  font-size: 20px;
+  color: #EE4367;
+}
+
+.home .hero {
+  margin-top: -93px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  background-image: linear-gradient(rgba(255, 208, 64, 0.8), rgba(255, 208, 64, 0.8)), url(../images/home-hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home .hero button {
+  width: 121.62px;
+  height: 40.04px;
+  background-color: #EE4367;
+  color: white;
+  border: none;
+  font-family: GillSansReg;
+  font-size: 15px;
+}
+.home .hero h1 {
+  font-family: ptSerif;
+  font-weight: normal;
+  font-size: 60px;
+}
+.home .hero p {
+  width: 420px;
+  text-align: center;
+  font-family: GillSansI;
+  font-size: 20px;
+  color: #EE4367;
+}
+.home .quote {
+  width: 100%;
+  height: 300px;
+}
+.home .quote .quoteText {
+  margin: 0 auto;
+  width: 789px;
+}
+.home .quote .quoteText #quotePara {
+  font-family: GillSansMedI;
+  color: #FFD140;
+  font-size: 15px;
+}
+.home .quote .quoteText #name {
+  font-family: ptSerif;
+  color: #EE4367;
+  font-size: 15px;
+}
+.home .quote .quoteText #corp {
+  font-family: ptSerif;
+  color: #A8A8A8;
+  font-size: 10px;
+}
+.home .events {
+  height: 320px;
+  background-color: #540D6E;
+}
+.home .events h2 {
+  font-family: GillSansReg;
+  color: white;
+  font-size: 25px;
+  font-weight: normal;
+}
+.home .events hr {
+  width: 392px;
+  border: 1px solid white;
+}
+.home .events .eventDetail {
+  display: flex;
+  flex-direction: row;
+}
+.home .events .eventDetail .eventBox {
+  width: 244px;
+  height: 124px;
+  display: flex;
+}
+.home .events .eventDetail .eventBox .date {
+  height: 60px;
+  width: 60px;
+  background-color: #EE4367;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.home .events .eventDetail .eventBox .date #num {
+  font-family: GillSansBold;
+  font-size: 22px;
+  color: white;
+}
+.home .events .eventDetail .eventBox .date #month {
+  font-family: GillSansLight;
+  font-size: 12px;
+  color: white;
+}
+.home .events .eventDetail .eventBox .text {
+  width: 140px;
+}
+.home .events .eventDetail .eventBox .text #top {
+  font-family: GillSansReg;
+  font-size: 15px;
+  color: white;
+}
+.home .events .eventDetail .eventBox .text #bottom {
+  font-family: GillSansReg;
+  font-size: 13px;
+  color: #EE4367;
+}
+
+footer {
+  height: 455px;
+  background-color: #EE4367;
+  text-align: center;
+}
+footer .logo {
+  margin: 0 auto;
+  font-family: GillSansReg;
+  font-size: 20px;
+  padding-top: 20px;
+  width: 92px;
+  height: 42px;
+  border: 2px solid white;
+  color: white;
+}
+footer .address {
+  margin: 0 auto;
+  font-size: 16px;
+  color: white;
+}
+footer .newsletter {
+  width: 696px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  font-family: GillSansReg;
+  margin: 0 auto;
+}
+footer .newsletter .input {
+  width: 529px;
+  height: 60px;
+  padding: 22px;
+  font-size: 16px;
+  color: white;
+  opacity: 0.5;
+  background-color: #f56b88;
+}
+footer .newsletter .button {
+  padding: 20px;
+  text-align: center;
+  width: 167px;
+  height: 60px;
+  background-color: white;
+  font-size: 16px;
+  color: #EE4367;
+}
+footer .copyright {
+  color: white;
+  opacity: 0.5;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=styles.css.map */

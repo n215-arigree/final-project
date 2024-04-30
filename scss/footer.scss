@@ -1,0 +1,52 @@
+footer {
+  height: 455px;
+  background-color: $site-coral;
+  text-align: center;
+  .logo {
+    margin: 0 auto;
+    font-family: GillSansReg;
+    font-size: 20px;
+    padding-top: 20px;
+    width: 92px;
+    height: 42px;
+    border: 2px solid white;
+    color: white;
+  }
+  .address {
+    margin: 0 auto;
+
+    font-size: 16px;
+    color: white;
+  }
+  .newsletter {
+    width: 696px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    font-family: GillSansReg;
+    margin: 0 auto;
+    .input {
+      width: 529px;
+      height: 60px;
+      padding: 22px;
+      font-size: 16px;
+      color: white;
+      opacity: 0.5;
+      background-color: #f56b88;
+    }
+    .button {
+      padding: 20px;
+      text-align: center;
+      width: 167px;
+      height: 60px;
+      background-color: white;
+      font-size: 16px;
+      color: $site-coral;
+    }
+  }
+  .copyright {
+    color: white;
+    opacity: 0.5;
+    font-size: 12px;
+  }
+}
